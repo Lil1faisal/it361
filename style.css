@@ -1,0 +1,150 @@
+/* ==========================================================
+   ملف التنسيق المشترك لكل صفحات الموقع
+   اللون الكحلي #003366 مستخدم في الهيدر والفوتر والعناوين
+   ========================================================== */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+}
+
+/* ----- الهيدر ----- */
+header {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+header p {
+  margin: 2px 0 0 0;
+  font-size: 13px;
+}
+
+/* ----- شريط التنقل ----- */
+nav {
+  padding: 8px 20px;
+  border-bottom: 1px solid #000000;
+}
+
+nav a {
+  color: #003366;
+}
+
+nav a:hover {
+  color: #cc0000;
+}
+
+nav a:focus {
+  color: #cc0000;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+/* ----- المحتوى ----- */
+main {
+  padding: 10px 20px;
+}
+
+h2 {
+  color: #003366;
+  font-size: 18px;
+}
+
+h3 {
+  color: #003366;
+  font-size: 15px;
+}
+
+a {
+  color: #003366;
+}
+
+/* ----- الجداول ----- */
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+  font-size: 13px;
+  padding-bottom: 3px;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 4px 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+/* ----- الفورم ----- */
+label {
+  display: block;
+  margin-top: 8px;
+}
+
+input, select, textarea {
+  width: 250px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+input:focus, select:focus, textarea:focus {
+  background-color: #eeeeee;
+}
+
+input[type="submit"] {
+  width: auto;
+  margin-top: 12px;
+}
+
+/* ----- الرسائل ----- */
+.error {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+.ok {
+  color: #006600;
+  font-weight: bold;
+}
+
+/* ----- الفوتر ----- */
+footer {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 8px 20px;
+  font-size: 13px;
+}
+
+/* ----- الشاشات الصغيرة ----- */
+@media (max-width: 600px) {
+
+  header, nav, main, footer {
+    padding: 8px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  input, select, textarea {
+    width: 100%;
+  }
+
+}

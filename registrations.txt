@@ -1,0 +1,2 @@
+Ahmed Al-Ghamdi|442100201|ahmed@seu.edu.sa|Introduction to Ethical Hacking|2026-07-20
+Layan Al-Subaie|442100202|layan@seu.edu.sa|Capture The Flag Contest|2026-07-21
